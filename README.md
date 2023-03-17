@@ -34,6 +34,30 @@ Whether you're new to deep learning or just want to learn more about YOLOv5, thi
 
 ## Comparing different YOLOv5 variants
 
+There are several variants of YOLOv5, each with different features and capabilities:
+The backbone architecture of YOLOv5 variants is based on a convolutional neural network (CNN) called CSPDarknet. This is a modified version of the Darknet architecture used in YOLOv4. CSPDarknet consists of a series of convolutional layers with shortcut connections, which helps to improve the information flow and reduce the computational cost of the network.
+
+In this project we use 10 variants : `yolov5n`, `yolov5s`, `yolov5m`, `yolov5l` ,`yolov5x` ,`yolov5n6`, `yolov5s6`, `yolov5m6`, `yolov5l6` and `yolov5x6`.
+Each YOLOv5 variant uses a different CSPDarknet backbone, which affects the size and speed of the network. Here are the CSPDarknet backbones used by each YOLOv5 variant:
+
+* YOLOv5s: CSPDarknet53
+* YOLOv5m: CSPDarknet53 + SPP (Spatial Pyramid Pooling)
+* YOLOv5l: CSPDarknet53 + PAN (Path Aggregation Network)
+* YOLOv5x: CSPDarknet53 + SPP + PAN
+
+The "6" in YOLOv5l6 (or any other yolov5 variant) refers to the number of times the CSPDarknet backbone is repeated in the network. This results in a deeper and more complex network than YOLOv5l, which has only 4 repeats of the CSPDarknet backbone.
+
+* YOLOv5n: This is the smallest and fastest variant of YOLOv5, making it ideal for real-time applications.
+* YOLOv5s: This is a smaller and faster version of YOLOv5, which makes it a more suitable choice for applications that require real-time processing.
+* YOLOv5m: This variant is larger and slower than YOLOv5s but provides better accuracy.
+* YOLOv5l: This variant is even larger and slower than YOLOv5m but provides even better accuracy.
+* YOLOv5x: This is the largest and slowest variant of YOLOv5, but it provides the highest accuracy.
+
+<p align="center">
+    <img src="https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/yolov5_6%20variants%20comparison.PNG" width=500></td>
+    <img src="https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/yolov5%20variants%20comparison.PNG" width=500></td>
+</p>
+
 ### Object detection on image files
 
 <div align="center">  
@@ -85,10 +109,34 @@ Whether you're new to deep learning or just want to learn more about YOLOv5, thi
     <td><img src="https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/img%20results/yolov5l6/people%20crossing%20the%20street.jpg" width=300></td>
     <td><img src="https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/img%20results/yolov5x6/people%20crossing%20the%20street.jpg" width=300></td>
   </tr>
- 
-   </div>
+   
+  
+</table>
+</div>
 
+### Object detection on video files 
 
+<div align="center">  
+<table style="margin: 0 auto; border-style: none; width:100%">
+  <tr>
+    <td>yolov5n</td>
+    <td>yolov5n6</td>
+
+  </tr>
+  
+  <tr> 
+    <td><img src="https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/GIFs/traffic_nano.gif" width=450></td>
+    <td><img src="https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/GIFs/traffic_nano6.gif" width=450></td>
+ </tr>
     
+  <tr>
+    <td>yolov5m</td>
+    <td>yolov5x6</td>
 
+  </tr>
+  
+  <tr> 
+    <td><img src="https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/GIFs/traffic_medium.gif" width=450></td>
+    <td><img src="https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/GIFs/traffic_x6.gif" width=450></td>
+ </tr>
 
