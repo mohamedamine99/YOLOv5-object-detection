@@ -2,7 +2,7 @@
 This GitHub repository showcases simple object detection using different YOLOv5-based models on images and videos.
 
 <p align="center">
-    <img src="https://github.com/mohamedamine99/YOLOv3-simple-object-detection/blob/main/gifs/YOLOv3/traffic.gif" width=470></td>
+    <img src="https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/GIFs/traffic_nano.gif" width=500></td>
 </p>
 
 This GitHub repository contains Jupyter notebooks that showcase simple object detection using YOLOv5 and its variants. 
@@ -85,10 +85,10 @@ Whether you're new to deep learning or just want to learn more about YOLOv5, thi
     <td><img src="https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/img%20results/yolov5l6/people%20crossing%20the%20street.jpg" width=300></td>
     <td><img src="https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/img%20results/yolov5x6/people%20crossing%20the%20street.jpg" width=300></td>
   </tr>
-  
+ 
+   </div>
 
-</div>
 
-
+    
 
 
