@@ -1,13 +1,13 @@
 # YOLOv5-object-detection
-This GitHub repository showcases simple object detection using different YOLOv5-based models on images and videos.
-
+The GitHub repository features two different implementations of object detection using YOLOv5 and its variants, one based on functions and the other on classes. 
 <p align="center">
     <img src="https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/GIFs/traffic_nano.gif" width=500></td>
 </p>
 
-This GitHub repository contains Jupyter notebooks that showcase simple object detection using YOLOv5 and its variants. 
+This GitHub repository contains Jupyter notebooks that showcase simple object detection using YOLOv5 and its variants using the aforementioned approaches. 
 The notebooks demonstrate how to apply these models to both images and video files, and provide step-by-step instructions for implementing the object detection algorithm. 
 Whether you're new to deep learning or just want to learn more about YOLOv5, this repository provides a great starting point for experimenting with object detection.
+
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
@@ -24,7 +24,9 @@ Whether you're new to deep learning or just want to learn more about YOLOv5, thi
 </details>
 
 ## Repo Overview:
-* [YOLOv5_simple_object_detector.ipynb](https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/YOLOv5_simple_object_detector.ipynb) : Jupyter notebook for object detection on both static image files and video files with different YOLOv5 variants.
+* [YOLOv5_simple_object_detector.ipynb](https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/YOLOv5_simple_object_detector.ipynb) : Jupyter notebook for object detection on both static image files and video files with different YOLOv5 variants using a function-base approach.
+* [YOLOv5_simple_Class_Based_Object_Detector.ipynb](https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/YOLOv5_simple_Class_Based_Object_Detector.ipynb) : Jupyter notebook for object detection on both static image files and video files with different YOLOv5 variants using a class-based approach.
+* [Yolov5_ObjectDetector.py](https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/Yolov5_ObjectDetector.py) : a python file that contains the definition of the Yolov5_ObjectDetector class and its documentation.
 * [img results](https://github.com/mohamedamine99/YOLOv5-object-detection/tree/main/img%20results) : contains results of object detection on image files.
 * [video results](https://github.com/mohamedamine99/YOLOv5-object-detection/tree/main/video%20results) : contains results of object detection on video files in .avi format.
 * [gifs](https://github.com/mohamedamine99/YOLOv3-simple-object-detection/tree/main/gifs) : contains results of object detection on video files in GIF format..
