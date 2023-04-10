@@ -1,7 +1,7 @@
 # YOLOv5-object-detection
 The GitHub repository features two different implementations of object detection using YOLOv5 and its variants, one based on functions and the other on classes. 
 <p align="center">
-    <img src="https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/GIFs/traffic_nano.gif" width=500></td>
+    <img src="https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/GIFs/traffic_nano.gif" width=450></td>
 </p>
 
 This GitHub repository contains Jupyter notebooks that showcase simple object detection using YOLOv5 and its variants using the aforementioned approaches. 
@@ -128,8 +128,8 @@ The "6" in YOLOv5l6 (or any other yolov5 variant) refers to the number of times 
   </tr>
   
   <tr> 
-    <td><img src="https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/GIFs/traffic_nano.gif" width=450></td>
-    <td><img src="https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/GIFs/traffic_nano6.gif" width=450></td>
+    <td><img src="https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/GIFs/yolov5n--traffic.gif" width=250></td>
+    <td><img src="https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/GIFs/yolov5n6--traffic.gif" width=250></td>
  </tr>
     
   <tr>
@@ -139,7 +139,7 @@ The "6" in YOLOv5l6 (or any other yolov5 variant) refers to the number of times 
   </tr>
   
   <tr> 
-    <td><img src="https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/GIFs/traffic_medium.gif" width=450></td>
-    <td><img src="https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/GIFs/traffic_x6.gif" width=450></td>
+    <td><img src="https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/GIFs/yolov5m--traffic.gif" width=250></td>
+    <td><img src="https://github.com/mohamedamine99/YOLOv5-object-detection/blob/main/GIFs/yolov5x6--traffic.gif" width=250></td>
  </tr>
 
